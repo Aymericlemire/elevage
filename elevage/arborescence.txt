@@ -1,0 +1,56 @@
+gelugpa/
+│
+├── README.md
+├── .gitignore
+├── index.html                # Page d'accueil
+│
+├── assets/                   # Tout ce qui est media
+│   ├── images/
+│   │   ├── chiens/
+│   │   ├── chiots/
+│   │   ├── elevage/
+│   │   ├── race/
+│   │   └── logo/
+│   │
+│   ├── videos/
+│   └── icons/
+│
+├── css/
+│   ├── style.css             # Feuille de style principale
+│   ├── variables.css         # Couleurs / typographies
+│   └── components.css        # Boutons, cartes, etc.
+│
+├── js/
+│   ├── main.js               # Script global
+│   ├── menu.js               # Navigation responsive
+│   └── gallery.js            # Gestion des galeries
+│
+├── pages/                    # Toutes les pages du site
+│   ├── elevage.html
+│   ├── race.html
+│   ├── chiens.html
+│   │
+│   ├── chiens/
+│   │   ├── males.html
+│   │   ├── femelles.html
+│   │   ├── etalons.html
+│   │   └── retraites.html
+│   │
+│   ├── chiots.html
+│   ├── chiots/
+│   │   ├── disponibles.html
+│   │   ├── futures-portees.html
+│   │   └── archives.html
+│   │
+│   ├── actualites.html
+│   ├── galerie.html
+│   ├── livre-d-or.html
+│   ├── liens.html
+│   └── contact.html
+│
+└── data/                     # (Optionnel) Si tu veux gérer tes contenus proprement
+    ├── chiens.json
+    ├── chiots.json
+    ├── portees.json
+    ├── avis.json
+    └── actualites.json
